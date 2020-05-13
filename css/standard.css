@@ -1,9 +1,21 @@
 html{
-  font-family: helvetica, arial, sans-serif;
+  font-family: 'Baloo Da 2', cursive;
 }
 
 body{
   margin: 0;
+}
+
+main{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
 }
 
 header{
@@ -14,27 +26,12 @@ header{
 header h1{
   color: #EB5E28;
   text-align: center;
-}
-
-nav, main, footer{
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px 0
-}
-
-h1{
-  color: #FFF;
   font-size: 50px;
-}
-
-h2 {
-  text-align: center;
-  font-size: 35px;
 }
 
 nav{
   background-color: #403D39;
+  padding: 5px 0;
   text-align: center;
 }
 
@@ -62,11 +59,12 @@ nav ul li a:hover{
 }
 
 main{
-  background-color: #BBB;
+  background-color: #FFF;
 }
 
 footer{
   background-color: #999;
+  padding: 5px 0;
   text-align: center;
 }
 
@@ -76,7 +74,7 @@ footer ul{
 }
 
 footer ul li{
-  width: 200px;
+  width: 150px;
   display: inline-block;
   color: white;
   text-align: center;
