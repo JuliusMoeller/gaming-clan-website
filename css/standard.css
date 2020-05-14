@@ -7,7 +7,7 @@ body{
 }
 
 
-/* HEADER *********************************************************************/
+/* Header **********************************************************************************************************************************************************************************************/
 header{
   background-color: #252422;
 }
@@ -20,7 +20,7 @@ header h1{
 }
 
 
-/* Navbar *********************************************************************/
+/* Navbar **********************************************************************************************************************************************************************************************/
 nav{
   position: sticky;
   top: 0;
@@ -64,43 +64,101 @@ nav ul li a:hover{
 }
 
 
-/* Main *********************************************************************/
+/* Main ************************************************************************************************************************************************************************************************/
 main{
   background-color: #FFF;
 }
 
 main h2 {
   margin-top: 0;
-  padding-top: 20px;
+  padding-top: 0.83em;
   text-align: center;
   font-size: calc(25px + 1.3vw);
 }
 
 .maintext {
   width: 800px;
-  font-size: calc(16px + 0,5vw);
+  font-size: calc(16px + 0.3vw);
   margin-left: auto;
   margin-right: auto;
 }
 
-#main_werwirsind_wrapper{
+
+/* Wer wir sind ****************************************************************/
+#werwirsind_wrapper{
   min-height: 100vh;
-  background: url("/M:/Hobbies/Coding%20Stuff/Websites/gaming-clan-website/images/keyboard.jpg");
+  background-image: url("/M:/Hobbies/Coding%20Stuff/Websites/gaming-clan-website/images/bg_keyboard.jpg");
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#werwirsind_wrapper h2{
+  color: #FFF;
+}
+
+#werwirsind_wrapper p{
+  color: #FFF;
+}
+
+
+/* Unsere Games ****************************************************************/
+#unseregames_wrapper{
+  min-height: 100vh;
+  background: linear-gradient(30deg, rgba(10, 37, 171, 0.5), rgba(11, 134, 173, 0.5)), url("/M:/Hobbies/Coding%20Stuff/Websites/gaming-clan-website/images/bg_unseregames.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
 }
 
-#main_werwirsind_wrapper h2{
+#unseregames_wrapper h2{
   color: #FFF;
 }
 
-#main_werwirsind_wrapper p{
-  color: #FFF;
+#unseregames_gamedisplay{
+  width: 400px;
+  height: 750px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+#gamedisplay_gameimage{
+  width: 400px;
+  height: 750px;
+  background-image: url("/M:/Hobbies/Coding%20Stuff/Websites/gaming-clan-website/images/gd_pubg.jpg");
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center center;
+  margin-right: auto;
+  margin-left: auto;
+  transition: background-color 0.5s;
+}
 
-/* FOOTER *********************************************************************/
+#gamedisplay_gameimage:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+}
+
+#gamedisplay_text{
+  opacity: 0;
+  width: 400px;
+  height: 750px;
+  margin-right: auto;
+  margin-left: auto;
+  transition: opacity 0.5s;
+}
+
+#gamedisplay_text:hover{
+  opacity: 100;
+}
+
+#gamedisplay_text p{
+  color: #FFF;
+  font-size: calc(16px + 0.3vw);
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* Footer **********************************************************************************************************************************************************************************************/
 footer{
   background-color: #999;
   padding: 5px 0;
