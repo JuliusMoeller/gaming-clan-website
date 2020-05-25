@@ -5,12 +5,15 @@
     <title>PLC - Gaming Clan</title>
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/92b2ebd643.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/standard.css">
   </head>
   <body>
     <header>
       <h1>Place Holder Clan</h1>
     </header>
+
+    <!--  Navigation ===============================================================================================================-->
     <nav>
       <ul>
         <li><a href="games.html">Games</a></li>
@@ -20,25 +23,52 @@
         <li><a href="contact.html">Kontakt</a></li>
       </ul>
     </nav>
+
+    <!--  Main ===============================================================================================================-->
     <main>
+
+      <!-- Wer wir sind ------------------------------------------------------->
       <section id="werwirsind_wrapper">
         <h2>Wer wir sind</h2>
         <p class="maintext">Place Holder Clan - das steht für Bla und Bli und Blu. Wir sind ein kollektiv von Gamern mit einer Leidenschaft für Spiele aller Art. Besonders leben wir dabei den competitive spirit aus.
           Und wie geht das besser als mit einem eingespielten, eingeschworenen Clan?</p>
       </section>
 
+      <!-- Unsere Games ------------------------------------------------------->
       <section id="unseregames_wrapper">
         <h2>Unsere Games</h2>
-        <div id="unseregames_gamedisplay">
-          <div id="gamedisplay_gameimage">
-            <div id="gamedisplay_text">
+
+        <!-- Games Slider ----------------------------------------------------->
+        <div id="unseregames_slider">
+          <!-- controls  -->
+          <div class="controls">
+              <div class="prev"><i class="fas fa-chevron-left"></i></div>
+              <div class="next"><i class="fas fa-chevron-right"></i></div>
+          </div>
+
+          <div class="slide active" style="background-image: url(images/gd_pubg.jpg)">
+            <div class="gamedisplay_text">
               <h2>PUBG</h2>
               <p>Playerunknown's Battlegrounds ist sehr toll und eigentlich sowieso das beste Spiel, das es momentan gibt.</p>
             </div>
           </div>
+          <div class="slide" style="background-image: url(images/gd_halo.jpg)">
+            <div class="gamedisplay_text">
+              <h2>Halo</h2>
+              <p>Halo ist sehr toll und eigentlich sowieso das beste Spiel, das es momentan gibt.</p>
+            </div>
+          </div>
         </div>
+
+        <!-- indicators -->
+        <div class="indicator">
+        </div>
+
+        <!-- Slider-Script -->
+        <script src="scripts/slider.js"></script>
       </section>
 
+      <!-- Wie du mitmachst --------------------------------------------------->
       <h2>Wie du mitmachst</h2>
       <p class="maintext">Schreib einfach einen von unseren Mods an. Unsere IGNs und, wer eher bei welchem Spiel zu finden ist, findest du <a href="contact.html">hier</a>.</p>
       <p class="maintext" style="color: #000;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
@@ -51,5 +81,7 @@
         <li><a href="contact.html">Kontakt</a></li>
       </ul>
     </footer>
+
+
   </body>
 </html>
