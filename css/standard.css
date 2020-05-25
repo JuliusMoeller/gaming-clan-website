@@ -87,7 +87,7 @@ main h2 {
 /* Wer wir sind ****************************************************************/
 #werwirsind_wrapper{
   min-height: 100vh;
-  background-image: url("/M:/Hobbies/Coding%20Stuff/Websites/gaming-clan-website/images/bg_keyboard.jpg");
+  background-image: url("../images/bg_keyboard.jpg");
   background-position: center top;
   background-size: cover;
   background-attachment: fixed;
@@ -105,7 +105,7 @@ main h2 {
 /* Unsere Games ****************************************************************/
 #unseregames_wrapper{
   min-height: 100vh;
-  background: linear-gradient(30deg, rgba(10, 37, 171, 0.5), rgba(11, 134, 173, 0.5)), url("/M:/Hobbies/Coding%20Stuff/Websites/gaming-clan-website/images/bg_unseregames.jpg");
+  background: linear-gradient(30deg, rgba(10, 37, 171, 0.5), rgba(11, 134, 173, 0.5)), url("../images/bg_unseregames.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
