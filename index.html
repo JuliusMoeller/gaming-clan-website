@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/92b2ebd643.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/standard.css">
+    <link rel="stylesheet" href="css/sliders.css">
   </head>
   <body>
     <header>
@@ -20,6 +21,35 @@
           <li><a href="contact.html">Kontakt</a></li>
         </ul>
       </nav>
+
+      <script type="text/javascript">
+        const navbar = document.querySelector("nav");
+        var stopper = false;
+
+        window.addEventListener("scroll", function(e){
+          if(document.documentElement.scrollTop != 0 && !stopper){
+            navbar.style.backgroundColor = '#000';
+            stopper = true;
+          }else if(document.documentElement.scrollTop == 0){
+            navbar.style.backgroundColor = 'rgba(0, 0, 0, 0)';
+            stopper = false;
+          }
+        })
+      </script>
+
+      <div id="hero_wrapper">
+        <div id="hero_slider">
+          <div class="heroslide" style="background-image: url(images/bgstock1.jpg)">
+
+          </div>
+          <div class="heroslide" style="background-image: url()">
+
+          </div>
+          <div class="heroslide" style="background-image: url()">
+
+          </div>
+        </div>
+      </div>
     </header>
     <!--  Main ===============================================================================================================-->
     <main>
