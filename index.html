@@ -11,6 +11,7 @@
   </head>
   <body>
     <header>
+
     <!--  Navigation ===============================================================================================================-->
       <nav>
         <ul>
@@ -39,18 +40,31 @@
 
       <div id="hero_wrapper">
         <div id="hero_slider">
-          <div class="heroslide" style="background-image: url(images/bgstock1.jpg)">
+
+          <!-- Controls -->
+          <div class="herocontrols">
+              <div class="heroprev"><i class="fas fa-chevron-left"></i></div>
+              <div class="heronext"><i class="fas fa-chevron-right"></i></div>
+          </div>
+
+          <!-- Slides -->
+          <div class="heroslide active" style="background-image: url(images/bgstock1.jpg)">
 
           </div>
-          <div class="heroslide" style="background-image: url()">
+          <div class="heroslide" style="background-image: url(images/bgstock2.jpg)">
 
           </div>
-          <div class="heroslide" style="background-image: url()">
+          <div class="heroslide" style="background-image: url(images/bgstock3.jpg)">
 
           </div>
         </div>
+
+        <!-- indicators -->
+        <div class="heroindicator">
+        </div>
       </div>
     </header>
+
     <!--  Main ===============================================================================================================-->
     <main>
 
@@ -67,10 +81,11 @@
 
         <!-- Games Slider ----------------------------------------------------->
         <div id="unseregames_slider">
+
           <!-- controls  -->
-          <div class="controls">
-              <div class="prev"><i class="fas fa-chevron-left"></i></div>
-              <div class="next"><i class="fas fa-chevron-right"></i></div>
+          <div class="gdcontrols">
+              <div class="gdprev"><i class="fas fa-chevron-left"></i></div>
+              <div class="gdnext"><i class="fas fa-chevron-right"></i></div>
           </div>
 
 
@@ -119,11 +134,11 @@
         </div>
 
         <!-- indicators -->
-        <div class="indicator">
+        <div class="gdindicator">
         </div>
 
         <!-- Slider-Script -->
-        <script src="scripts/slider.js"></script>
+        <script src="scripts/sliders.js"></script>
       </section>
 
       <!-- Wie du mitmachst --------------------------------------------------->
